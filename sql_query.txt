@@ -1,0 +1,12 @@
+CREATE DATABASE hoteldb;
+
+use hoteldb;
+
+CREATE TABLE hotel(
+ID INT AUTO_INCREMENT PRIMARY KEY,
+Name VARCHAR(25),
+Address VARCHAR(50),
+Age INT,
+Indate DATE,
+Outdate DATE,
+RoomNumber INT);
